@@ -1,0 +1,126 @@
+.stickyContainer {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  margin-bottom: 0.5rem;
+  top: 1rem;
+  left: 1rem;
+}
+
+.saveBtn,
+.alertRed,
+.alertGreen,
+.upBtn {
+  background: none;
+  color: inherit;
+  padding: 0;
+  font: inherit;
+  outline: inherit;
+}
+
+.saveBtn,
+.alertRed,
+.alertGreen {
+  padding: 0.5rem;
+  background-color: rgb(179, 208, 241);
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.margin {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.saveBtn {
+  margin-bottom: 0.7rem;
+}
+
+.alertRed,
+.alertGreen,
+.dropbtn,
+.dropdownContent {
+  border-radius: 0;
+  display: inline;
+}
+
+.alertRed {
+  background-color: rgb(255, 45, 45);
+}
+.alertGreen {
+  background-color: rgb(47, 170, 47);
+  color: white;
+}
+
+.upBtn {
+  float: right;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  font-size: 20pt;
+  margin-top: -2rem;
+}
+
+.upBtn:hover {
+  background-color: rgb(179, 208, 241);
+}
+
+.dropbtn {
+  padding: 0.5rem;
+  background-color: rgb(179, 208, 241);
+  border-radius: 0.3rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  min-width: 10rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdownContent button {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdownContent button:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(25, 37, 202);
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .saveBtn,
+  .alertRed,
+  .alertGreen {
+    display: inline;
+  }
+  .alertRed,
+  .alertGreen {
+    margin-left: 1rem;
+  }
+
+  .upBtn {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 992px) {
+}

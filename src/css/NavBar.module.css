@@ -1,0 +1,30 @@
+.navLogout {
+  cursor: pointer;
+}
+
+.navLogout:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.marginTitle,
+.navLogout,
+.userTag {
+  margin-left: 1rem;
+}
+
+.navDropDown {
+  margin-right: 1rem;
+}
+.userTag {
+  margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .userTag {
+    margin-right: 0;
+  }
+}

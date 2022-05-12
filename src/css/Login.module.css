@@ -1,0 +1,52 @@
+.containerInput {
+  background-color: rgb(201, 240, 241);
+  width: 80%;
+  border-radius: 0.4rem;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 1rem 0;
+}
+
+.input,
+.btn {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.margin {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+form h3 {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .containerInput {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .containerInput {
+    width: 30%;
+  }
+}
